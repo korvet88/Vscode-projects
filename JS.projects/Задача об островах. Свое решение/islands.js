@@ -14,9 +14,11 @@ let grid2 = [
 
 let numIslends = function(grid) {
     for (let subgrid of grid) {
+        let arr = [];
         for (let elem of subgrid) {
-            console.log(elem);
+            arr.push(elem);
         }
+        console.log(arr)
     }
 
 };
@@ -24,4 +26,5 @@ let numIslends = function(grid) {
 
 console.log(numIslends(grid1));
 console.log(numIslends(grid2));
-
+console.log(grid1[0].length);
+console.log(grid1)
